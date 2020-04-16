@@ -9,7 +9,7 @@ public class Role {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
+//mani
     private String name;
 
     @ManyToMany(mappedBy = "roles")
